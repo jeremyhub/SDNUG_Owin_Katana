@@ -1,4 +1,5 @@
 ﻿using Owin;
+using OwinHelloWorld.Middleware;
 
 namespace OwinHelloWorld
 {
@@ -6,11 +7,12 @@ namespace OwinHelloWorld
     {
         public void Configuration(IAppBuilder app) 
         {
-            app.Run(context =>
-            {
-                context.Response.ContentType = "text/plain";
-                return context.Response.WriteAsync("Hello World!");
-            });
+            //app.Run(context =>
+            //{
+            //    context.Response.ContentType = "text/plain";
+            //    return context.Response.WriteAsync("Hello World!");
+            //});
+            app.UseSdnugMiddleware();
         }                        
     }
 }
