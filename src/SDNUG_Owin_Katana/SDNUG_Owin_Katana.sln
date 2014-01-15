@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinHelloWorld", "OwinHelloWorld\OwinHelloWorld.csproj", "{F47A1EC1-F88A-4FA1-BFF5-51E6C72EDA5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinHostWebApi", "OwinHostWebApi\OwinHostWebApi.csproj", "{28F4098C-62EF-482E-BDCF-2B19759CF7CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleWebApi", "ConsoleWebApi\ConsoleWebApi.csproj", "{2EE3E1F0-2CE0-4B2E-8901-5A1FBE4C3072}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{F47A1EC1-F88A-4FA1-BFF5-51E6C72EDA5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F47A1EC1-F88A-4FA1-BFF5-51E6C72EDA5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F47A1EC1-F88A-4FA1-BFF5-51E6C72EDA5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28F4098C-62EF-482E-BDCF-2B19759CF7CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F4098C-62EF-482E-BDCF-2B19759CF7CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F4098C-62EF-482E-BDCF-2B19759CF7CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F4098C-62EF-482E-BDCF-2B19759CF7CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EE3E1F0-2CE0-4B2E-8901-5A1FBE4C3072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE3E1F0-2CE0-4B2E-8901-5A1FBE4C3072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE3E1F0-2CE0-4B2E-8901-5A1FBE4C3072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE3E1F0-2CE0-4B2E-8901-5A1FBE4C3072}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
