@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinHostWebApi", "OwinHostW
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleWebApi", "ConsoleWebApi\ConsoleWebApi.csproj", "{2EE3E1F0-2CE0-4B2E-8901-5A1FBE4C3072}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationDemo", "PresentationDemo\PresentationDemo.csproj", "{CF4ACE29-BFB5-43EE-9308-BB8A95173CBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{2EE3E1F0-2CE0-4B2E-8901-5A1FBE4C3072}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EE3E1F0-2CE0-4B2E-8901-5A1FBE4C3072}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EE3E1F0-2CE0-4B2E-8901-5A1FBE4C3072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF4ACE29-BFB5-43EE-9308-BB8A95173CBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF4ACE29-BFB5-43EE-9308-BB8A95173CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF4ACE29-BFB5-43EE-9308-BB8A95173CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF4ACE29-BFB5-43EE-9308-BB8A95173CBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

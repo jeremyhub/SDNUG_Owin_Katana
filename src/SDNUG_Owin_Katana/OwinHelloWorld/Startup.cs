@@ -1,5 +1,7 @@
 ﻿using Owin;
 using OwinHelloWorld.Middleware;
+using PresentationDemo.Middleware;
+using DemoMiddlewareComponent = OwinHelloWorld.Middleware.SdnugMiddlware.DemoMiddlewareComponent;
 
 namespace OwinHelloWorld
 {
@@ -13,6 +15,9 @@ namespace OwinHelloWorld
             //    return context.Response.WriteAsync("Hello World!");
             //});
             app.UseSdnugMiddleware();
+            app.Use<DemoMiddlewareComponent>(
+                new DemoMiddlewareOption());
+            
         }                        
     }
 }

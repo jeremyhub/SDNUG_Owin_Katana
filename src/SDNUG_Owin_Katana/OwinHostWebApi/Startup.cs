@@ -25,6 +25,16 @@ namespace OwinHostWebApi
             );
             app.UseWebApi(config);
 
+            //app.Run(context =>
+            //    {
+            //        var baseUrl = "http://localhost:5000";
+            //        var client = new HttpClient();
+
+            //        var response = client.GetAsync(baseUrl + "api/test").Result;
+
+            //        context.Response.ContentType = "text/plain"; 
+            //        return context.Response.WriteAsync(response.Content.ReadAsStringAsync().Result);
+            //    });
             
         }
     }

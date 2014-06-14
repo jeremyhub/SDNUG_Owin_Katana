@@ -1,12 +1,14 @@
-﻿using System.Web.Http;
+﻿using System.Collections.Generic;
+using System.Web.Http;
 
 namespace OwinHostWebApi.Controllers
 {
     public class TestController : ApiController
     {
-        public string Get()
+        // GET api/values 
+        public IEnumerable<string> Get()
         {
-            return "Hello world";
-        }
+            return new string[] { "value1", "value2" };
+        } 
     }
 }

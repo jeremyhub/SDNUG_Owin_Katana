@@ -25,6 +25,8 @@ namespace OwinHelloWorld.Middleware.SdnugMiddlware
                     await writer.WriteLineAsync(string.Format("Hello {0}!", _options.Name));
                     foreach (var option in _options.MoreOptions)
                     {
+                        //_next.Invoke(environment);
+                       
                         await writer.WriteLineAsync(string.Format("Option: {0}", option));
                     }
                 }
